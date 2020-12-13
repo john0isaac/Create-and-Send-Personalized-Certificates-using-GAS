@@ -1,6 +1,6 @@
 # Create-and-Send-Personalized-Certificates-using-GAS
 
-
+Using standalone Google apps script on a google sheet, google slide to create and send appreciation certificates automatically.
 ## Steps
 * Create a Folder on your [google drive](https://drive.google.com/drive).
 * Make a Copy from [Certificate Slide](https://docs.google.com/presentation/d/1u_7EtmmmZ_cdGHno2PrAme4AjWa40Cm8rcHgDo1PIpo/edit?usp=sharing) then move it to your folder.
