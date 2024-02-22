@@ -1,11 +1,11 @@
 var eventName = "Machine Learning Crash Course";
 //Change only one time
-var slideTemplateId = "1u_7EtmmmZ_cdGHno2PrAme4AjWa40Cm8rcHgDo1PIpo"; // Example: https://docs.google.com/presentation/d/1u_7EtmmmZ_cdGHno2PrAme4AjWa40Cm8rcHgDo1PIpo
-var sheetId = "1VY3_SsdomBnLhfQ2NR-aiVRbyi41yuF64l7UQZaSgZo"; // Example: https://docs.google.com/spreadsheets/d/1VY3_SsdomBnLhfQ2NR-aiVRbyi41yuF64l7UQZaSgZo
-var tempFolderId = "12cRJ-Jf2KFjaAkAmrPKNv1_XfcM594ei"; // Example: https://drive.google.com/drive/folders/12cRJ-Jf2KFjaAkAmrPKNv1_XfcM594ei
+var slideTemplateId = "19_fW9N3Yr9dQbFxqpEh9HaT-jOr6NqeFa9bxbkvs_GI"; // Example: https://docs.google.com/presentation/d/1u_7EtmmmZ_cdGHno2PrAme4AjWa40Cm8rcHgDo1PIpo
+var sheetId = "1rErYVz3l7CydNe7Zwur6sAg7su0CuXnGLdZCFUOwTog"; // Example: https://docs.google.com/spreadsheets/d/1VY3_SsdomBnLhfQ2NR-aiVRbyi41yuF64l7UQZaSgZo
+var tempFolderId = "1F0Xe3JCd67odDWylCsQrkMXDbzsy_uRv"; // Example: https://drive.google.com/drive/folders/12cRJ-Jf2KFjaAkAmrPKNv1_XfcM594ei
 var leadName = "John Aziz";
-var title = "Lead";
-var teamName = "DSC MAE";
+var title = "Microsoft Learn Student Ambassador";
+var teamName = "Microsoft Learn Student Ambassadors";
 
 // Create Slides with the data form the spread sheet and update the status once created
 function createCertificates() {
@@ -64,8 +64,8 @@ function sendCertificates() {
     
     var attachment = DriveApp.getFileById(slideId);
     var senderName = teamName;
-    var subject = name + ", you're awesome!";
-    var body = "On behalf of Developer Student Clubs, "+
+    var subject = name + ", You're awesome!";
+    var body = "On behalf of Microsoft Learn Student Ambassador, "+
                "we would like to thank you for participating with us in the "+eventName+".\n\n"+
                "This certificate is for people who attended the session.\n\n"+
                "Thank you again for being part of this journey, and we encourage you to stay updated with our events.\n\n"+
